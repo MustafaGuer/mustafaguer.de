@@ -3,18 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SlideshowComponent } from './slideshow/slideshow.component';
+// import { SlideshowComponent } from './slideshow/slideshow.component';
 import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
+import { BannerComponent } from './banner/banner.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SlideshowComponent,
+    // SlideshowComponent,
     MenuComponent,
     ImprintComponent,
-    DataProtectionComponent
+    DataProtectionComponent,
+    BannerComponent,
+    SkillsComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BannerComponent } from './banner/banner.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { ImprintComponent } from './imprint/imprint.component';
-// import { SlideshowComponent } from './slideshow/slideshow.component';
 
 
 
@@ -11,8 +9,6 @@ import { ImprintComponent } from './imprint/imprint.component';
 
 
 const routes: Routes = [
-  // { path: '', component: SlideshowComponent },
-  { path: '', component: BannerComponent},
   { path: 'imprint', component: ImprintComponent },
   { path: 'data-protection', component: DataProtectionComponent }
 ];

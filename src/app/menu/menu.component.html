@@ -1,14 +1,11 @@
-<header [class.headerDark]="darkMode">
+<header>
+    <img src="assets/img/logo_white.png">
 
-
-    <img *ngIf="!darkMode" routerLink="/" src="assets/img/logo_white.png">
-    <img *ngIf="darkMode" routerLink="/" src="assets/img/logo_black.png">
-
-    <div [class.darkLinks]="darkMode">
+    <div>
         <div class="links">
             <a routerLink="/">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">PORTFOLIO</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#about">ABOUT</a>
             <!-- <a routerLink="/data-protection">Data Protection</a> -->
             <!-- <a routerLink="/imprint">Imprint</a> -->
         </div>
@@ -18,8 +15,8 @@
         <span onclick="showMobileMenu()">&#9776;</span>
         <div id="mobileMenu" class="mobile-menu">
             <a routerLink="/">HOME</a>
+            <a href="#portfolio">PORTFOLIO</a>
             <a href="#">ABOUT</a>
-            <a href="#">PORTFOLIO</a>
         </div>
     </div>
 

@@ -1,7 +1,7 @@
-<header>
+<header  (window:resize)="onResize($event)">
     <img src="assets/img/logo_white.png">
 
-    <div>
+    <div *ngIf="!isMobile">
         <div class="links">
             <a routerLink="/">HOME</a>
             <a href="#portfolio">PORTFOLIO</a>
@@ -11,8 +11,8 @@
         </div>
     </div>
 
-    <div class="dropdown-menu d-none">
-        <span onclick="showMobileMenu()">&#9776;</span>
+    <div *ngIf="isMobile" class="dropdown-menu">
+        <span>&#9776;</span>
         <div id="mobileMenu" class="mobile-menu">
             <a routerLink="/">HOME</a>
             <a href="#portfolio">PORTFOLIO</a>

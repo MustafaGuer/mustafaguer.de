@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-
     a {
         text-decoration: none;
         color: #2dfcd8;
@@ -14,38 +13,32 @@
     .contactForm {
         display: flex;
         flex-direction: column;
-
         label {
             margin-bottom: 4px;
         }
         input {
             margin-bottom: 8px;
-            padding: 4px;
-            background-color: #1A1A1A;
-            border: none;
-            padding-left: 8px;
-            color: white;
         }
+        input,
         textarea {
+            font-family: "Open Sans", sans-serif;
             background-color: #1A1A1A;
-            border: none;
-            padding-left: 8px;
             color: white;
+            padding: 8px;
+            border: none;
         }
         div {
             margin-top: 30px;
             display: flex;
             justify-content: flex-end;
-
             .sendBtn {
                 color: #2dfcd8;
                 background-color: black;
                 width: 150px;
                 height: 50px;
-                border: 1px solid #2dfcd8; 
-                cursor: pointer;     
+                border: 1px solid #2dfcd8;
+                cursor: pointer;
                 transition: all 225ms ease-in-out;
-                
                 &:hover {
                     background-color: #2dfcd8;
                     color: white;

@@ -26,6 +26,11 @@
             color: white;
             padding: 8px;
             border: none;
+            transition: box-shadow 225ms ease-out;
+            &:hover {
+                box-shadow: 0 0 2px 1px white;
+                transition: box-shadow 225ms ease-in;
+            }
         }
         div {
             margin-top: 30px;

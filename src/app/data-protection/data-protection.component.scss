@@ -1,0 +1,10 @@
+.container {
+    padding: 120px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 20px 40px 20px;
+        word-wrap: break-word;
+    }
+}

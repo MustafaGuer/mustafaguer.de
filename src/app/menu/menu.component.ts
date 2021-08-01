@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
   @Input() darkMode = true;
   isMobile = window.innerWidth < 600;
+  ifClicked = false;
 
   constructor() { }
 
@@ -15,8 +16,16 @@ export class MenuComponent implements OnInit {
 
   }
 
+  openMenu() {
+    this.ifClicked = true;
+  }
+
+  closeMenu() {
+    this.ifClicked = false;
+  }
+
   onResize(event: any) {
-   this.isMobile = event.target.innerWidth < 600;
+    this.isMobile = event.target.innerWidth < 600;
   }
 
 }

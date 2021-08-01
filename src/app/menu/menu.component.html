@@ -1,19 +1,18 @@
-<header  (window:resize)="onResize($event)">
-    <img src="assets/img/logo_white.png">
+<header (window:resize)="onResize($event)">
+    <img routerLink="/" src="assets/img/logo_white.png">
 
     <div *ngIf="!isMobile">
         <div class="links">
             <a routerLink="/">HOME</a>
             <a href="#portfolio">PORTFOLIO</a>
             <a href="#about">ABOUT</a>
-            <!-- <a routerLink="/data-protection">Data Protection</a> -->
-            <!-- <a routerLink="/imprint">Imprint</a> -->
         </div>
     </div>
 
     <div *ngIf="isMobile" class="dropdown-menu">
-        <span>&#9776;</span>
-        <div id="mobileMenu" class="mobile-menu">
+        <span *ngIf="!ifClicked" (click)="openMenu()">&#9776;</span>
+        <span *ngIf="ifClicked" (click)="closeMenu()">&#9776;</span>
+        <div [class.openMobileMenu]="ifClicked" class="mobile-menu">
             <a routerLink="/">HOME</a>
             <a href="#portfolio">PORTFOLIO</a>
             <a href="#">ABOUT</a>

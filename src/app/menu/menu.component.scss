@@ -7,22 +7,18 @@ header {
     z-index: 1;
     padding-left: 120px;
     padding-right: 120px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     a {
         color: white;
         text-decoration: none;
         margin-left: 32px;
         font-weight: 500;
-
         &:hover {
             color: #FA2759;
         }
     }
-
     img {
         height: 50px;
         cursor: pointer;
@@ -32,8 +28,6 @@ header {
 .darkLinks {
     a {
         color: black;
-
-
         &:hover {
             color: rgba(0, 0, 0, 0.8);
         }
@@ -45,7 +39,7 @@ header {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 700px)  {
+@media (max-width: 700px) {
     header {
         padding-left: 60px;
         padding-right: 60px;
@@ -62,7 +56,6 @@ header {
         display: none;
     }
     .dropdown-menu {
-
         span {
             font-size: 40px;
             cursor: pointer;
@@ -74,9 +67,8 @@ header {
             left: 0;
             right: 0;
             background-color: #1A1A1A;
-            transform: translateY(-200%);
-            z-index: 0;
-
+            transform: translateY(100%);
+            opacity: 0;
             a {
                 padding-top: 8px;
                 padding-bottom: 8px;
@@ -86,4 +78,9 @@ header {
             }
         }
     }
+}
+
+.openMobileMenu {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
 }

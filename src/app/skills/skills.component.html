@@ -1,47 +1,11 @@
 <section id="skills" class="container">
     <h2>My Skills</h2>
     <div class="skillContainer">
-        <div class="skillBoxes">
+        <div *ngFor="let skill of skills" class="skillBoxes">
             <div class="skillImgBox">
-                <img src="assets/img/javascript-icon.png">
+                <img src="./assets/img/{{ skill.img }}">
             </div>
-            <span>JavaScript</span>
-        </div>
-        <div class="skillBoxes">
-            <div class="skillImgBox">
-                <img src="assets/img/angular2.png">
-            </div>
-            <span>Angular</span>
-        </div>
-        <div class="skillBoxes">
-            <div class="skillImgBox">
-                <img src="assets/img/java script.png">
-            </div>
-            <span>HTML</span>
-        </div>
-        <div class="skillBoxes">
-            <div class="skillImgBox">
-                <img src="assets//img/Group 205.png">
-            </div>
-            <span>CSS</span>
-        </div>
-        <div class="skillBoxes">
-            <div class="skillImgBox">
-                <img src="assets/img/Group 226.png">
-            </div>
-            <span>SCRUM</span>
-        </div>
-        <div class="skillBoxes">
-            <div class="skillImgBox">
-                <img src="assets/img/Git-Icon-1788C 2.png">
-            </div>
-            <span>Git</span>
-        </div>
-        <div class="skillBoxes">
-            <div class="skillImgBox">
-                <img src="assets/img/icons8-rest-api-80 2.png">
-            </div>
-            <span>Rest API</span>
+            <span>{{ skill.name }}</span>
         </div>
     </div>
 </section>

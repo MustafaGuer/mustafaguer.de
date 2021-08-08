@@ -1,0 +1,7 @@
+<div *ngFor="let p of projects"  id="{{ p.id }}" class="preview">
+    <div class="description">
+        <h3>{{ p.name }}</h3>
+        <p>{{ p.description }}</p>
+        <a target="_blank" href="{{ p.link }}">Try Out</a>
+    </div>
+</div>

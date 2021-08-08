@@ -1,0 +1,78 @@
+
+.preview {
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 27px;
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: opacity 225ms ease-in-out;
+    &:hover {
+        opacity: 1;
+        transition: opacity 225ms ease-in-out;
+    }
+    h3 {
+        color: #FA2759;
+    }
+    p {
+        color: #1A1A1A;
+        margin-bottom: 90px;
+    }
+    h3,
+    p {
+        cursor: default;
+    }
+    a {
+        color: #FA2759;
+        font-weight: bold;
+        border: 1px solid #FA2759;
+        padding: 15px 25px;
+        background-color: white;
+    }
+}
+
+#sharkie {
+    background-image: url("../../assets/img/sharkie.png");
+}
+#elPolloLocco {
+    background-image: url("../../assets/img/elpolloloco.png");
+}
+#pokedex {
+    background-image: url("../../assets/img/pokedex.jpg");
+}
+#join {
+    background-image: url("../../assets/img/kanban.jpg");
+}
+
+
+@media (max-width: 600px) {
+    .preview {
+        width: 400px !important;
+        height: 300px !important;
+        margin: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .description {
+        p {
+            margin-bottom: 20px !important;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .preview {
+        width: 300px !important;
+        height: 200px !important;
+    }
+}

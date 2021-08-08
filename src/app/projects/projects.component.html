@@ -1,17 +1,12 @@
 <div id="portfolio" class="container">
     <h2>My Works</h2>
     <div class="lists">
-        <div class="linkBox"><a href="#">All</a></div>
-        <div class="linkBox"><a href="#">Angular</a></div>
-        <div class="linkBox"><a href="#">Java Script</a></div>
+        <button [class.active]="all" class="linkBox" (click)="showAll()">All</button>
+        <button [class.active]="angular" class="linkBox" (click)="showAngular()">Angular</button>
+        <button [class.active]="javascript" class="linkBox" (click)="showJavascript()">Java Script</button>
     </div>
     <div class="previews">
-        <div *ngFor="let p of projects"  id="{{ p.id }}" class="preview">
-            <div class="description">
-                <h3>{{ p.name }}</h3>
-                <p>{{ p.description }}</p>
-                <a target="_blank" href="{{ p.link }}">Try Out</a>
-            </div>
-        </div>
+        <app-projects-javascript *ngIf="javascript || all" class="diff-projects-container"></app-projects-javascript>
+        <app-projects-angular *ngIf="angular || all" class="diff-projects-container"></app-projects-angular>
     </div>
 </div>

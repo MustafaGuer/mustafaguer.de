@@ -7,52 +7,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  all = true;
   javascript = false;
   angular = false;
-
-  projects = [
-    {
-      'id': 'sharkie',
-      'name': 'Sharkie',
-      'description': 'Javascript based game',
-      'link': 'http://mustafa-guer.developerakademie.com/SHARKIE/index.html'
-    },
-    {
-      'id': 'elPolloLocco',
-      'name': 'El Pollo Locco',
-      'description': 'Javascript based Jump and Run Game',
-      'link': 'http://mustafa-guer.developerakademie.com/EL_POLLO_LOCO/index.html'
-    },
-    {
-      'id': 'pokedex',
-      'name': 'Pokedex',
-      'description': 'Work with API',
-      'link': 'http://mustafa-guer.developerakademie.com/Pokedex/index.html'
-    },
-    {
-      'id': 'join',
-      'name': 'Join',
-      'description': 'Canban Board',
-      'link': 'http://mustafa-guer.developerakademie.com/Join/html/login-submit.html'
-    },
-    {
-      'id': 'ringoffire',
-      'name': 'Ring of Fire',
-      'description': 'Angular based Card Counting Game',
-      'link': 'https://ring-of-fire-2e805.web.app/'
-    },
-    {
-      'id': 'simplecrm',
-      'name': 'Simple CRM',
-      'description': 'Angular based Business App',
-      'link': 'https://ring-of-fire-2e805.web.app/'
-    }
-  ];
-
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  showAll() {
+    this.all = true;
+    this.javascript = false;
+    this.angular = false;
+  }
+
+  showJavascript() {
+    this.javascript = true;
+    this.angular = false;
+    this.all = false;
+  }
+
+  showAngular() {
+    this.javascript = false;
+    this.angular = true;
+    this.all = false;
   }
 
 }

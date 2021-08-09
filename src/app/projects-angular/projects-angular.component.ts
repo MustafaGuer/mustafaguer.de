@@ -18,7 +18,7 @@ export class ProjectsAngularComponent implements OnInit {
       'id': 'simplecrm',
       'name': 'Simple CRM',
       'description': 'Angular based Business App',
-      'link': 'https://ring-of-fire-2e805.web.app/'
+      'link': 'http://mustafa-guer.developerakademie.com/simplecrm/index.html'
     }
   ];
 

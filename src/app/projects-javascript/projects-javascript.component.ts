@@ -31,6 +31,12 @@ export class ProjectsJavascriptComponent implements OnInit {
       'name': 'Join',
       'description': 'Canban Board',
       'link': 'http://mustafa-guer.developerakademie.com/Join/html/login-submit.html'
+    },
+    {
+      'id': 'quizapp',
+      'name': 'QuizApp',
+      'description': 'Javascript based Quiz Game',
+      'link': 'http://mustafa-guer.developerakademie.com/Quizapp%20Dark/index.html'
     }
   ];
 

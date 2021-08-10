@@ -6,28 +6,36 @@ footer {
     align-items: center;
     padding-left: 120px;
     padding-right: 120px;
-    color: black;
+    color: black;   
+}
 
-    img {
-        width: 40px;
+.rightLinks {
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: rgba(0,0,0,0.8);
+        }
     }
+}
 
-    .rightLinks {
-        a {
-            text-decoration: none;
-            color: black;
+.socialMediaLinks {
+    a {
+        margin-right: 16px;
+        margin-left: 16px;
+
+        img {
+            width: 40px;
+            transition: all 225ms ease-in-out;
 
             &:hover {
-                color: rgba(0,0,0,0.8);
+                background-color: #FA2759;
+                border-radius: 4px;
             }
         }
     }
-    .socialMediaLinks {
-        a {
-            margin-right: 16px;
-            margin-left: 16px;
-        }
-    }
+    
 }
 
 @media (max-width: 700px) {

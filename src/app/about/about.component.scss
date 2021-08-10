@@ -3,49 +3,50 @@
     padding-right: 120px;
     background-color: #1a1a1a;
     padding-bottom: 120px;
-    .introBox {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        border-bottom: 1px solid #2dfcd8;
-        div {
-            width: 600px;
-            text-align: center;
-            margin-left: 16px;
-        }
-        img {
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 50%;
-            margin-right: 16px;
-        }
-    }
-    .storySection {
-        padding-top: 50px;
-        display: flex;
-        .storyPart {
-            width: 25%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-left: 10px;
-            margin-right: 10px;
-            img {
-                width: 40px;
-                padding: 16px;
-                background-color: #2dfcd8;
-                border-radius: 50%;
-                transition: transform 1s;
+}
 
-                &:hover {
-                    transform: rotateZ(360deg);
-                }
+.storySection {
+    padding-top: 50px;
+    display: flex;
+    .storyPart {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        img {
+            width: 40px;
+            padding: 16px;
+            background-color: #2dfcd8;
+            border-radius: 50%;
+            transition: transform 1s;
+
+            &:hover {
+                transform: rotateZ(360deg);
             }
         }
+    }
+}
+
+.introBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #2dfcd8;
+    div {
+        text-align: center;
+        margin-left: 16px;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 16px;
     }
 }
 

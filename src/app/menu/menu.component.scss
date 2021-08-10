@@ -9,7 +9,7 @@ header {
     padding-right: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     a {
         color: white;
         text-decoration: none;
@@ -43,6 +43,7 @@ header {
     header {
         padding-left: 60px;
         padding-right: 60px;
+        justify-content: space-between;
     }
 }
 

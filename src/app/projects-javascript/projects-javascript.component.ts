@@ -15,10 +15,10 @@ export class ProjectsJavascriptComponent implements OnInit {
       'link': 'http://mustafa-guer.developerakademie.com/SHARKIE/index.html'
     },
     {
-      'id': 'elPolloLocco',
-      'name': 'El Pollo Locco',
-      'description': 'Javascript based Jump and Run Game',
-      'link': 'http://mustafa-guer.developerakademie.com/EL_POLLO_LOCO/index.html'
+      'id': 'burritocompany',
+      'name': 'Burrit Company',
+      'description': 'Javascript based Object-Oriented Restaurant Website',
+      'link': 'http://mustafa-guer.developerakademie.com/burrito-company/index.html'
     },
     {
       'id': 'pokedex',

@@ -19,6 +19,18 @@ export class ProjectsAngularComponent implements OnInit {
       'name': 'Simple CRM',
       'description': 'Angular based Business App',
       'link': 'http://mustafa-guer.developerakademie.com/simplecrm/index.html'
+    },
+    {
+      'id': 'burritocompany',
+      'name': 'Burrito Company',
+      'description': 'Restaurant Website with Angular',
+      'link': 'http://mustafa-guer.developerakademie.com/burritoCompany/'
+    },
+    {
+      'id': 'doctordatabase',
+      'name': 'Doctor Database',
+      'description': 'Angular Website for searching Doctor',
+      'link': 'http://mustafa-guer.developerakademie.com/doctor-database/'
     }
   ];
 

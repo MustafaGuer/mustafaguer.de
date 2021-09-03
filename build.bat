@@ -4,4 +4,4 @@ git commit -m "%commit%"
 git push
 
 ng build --prod --base-href="/mustafaguer.de/"
-@REM firebase deploy
+

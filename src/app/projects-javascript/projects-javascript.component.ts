@@ -20,16 +20,16 @@ export class ProjectsJavascriptComponent implements OnInit {
       'description': 'Javascript based Object-Oriented Restaurant Website',
       'link': 'http://mustafa-guer.developerakademie.com/burrito-company/index.html'
     },
-    {
-      'id': 'pokedex',
-      'name': 'Pokedex',
-      'description': 'Work with API',
-      'link': 'http://mustafa-guer.developerakademie.com/Pokedex/index.html'
-    },
+    // {
+    //   'id': 'pokedex',
+    //   'name': 'Pokedex',
+    //   'description': 'Work with API',
+    //   'link': 'http://mustafa-guer.developerakademie.com/Pokedex/index.html'
+    // },
     {
       'id': 'join',
       'name': 'Join',
-      'description': 'Canban Board',
+      'description': 'Canban Board with JavaScript in Group Work',
       'link': 'http://mustafa-guer.developerakademie.com/Join/html/login-submit.html'
     },
     {

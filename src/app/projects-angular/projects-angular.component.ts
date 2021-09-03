@@ -31,6 +31,12 @@ export class ProjectsAngularComponent implements OnInit {
       'name': 'Doctor Database',
       'description': 'Angular Website for searching Doctor',
       'link': 'http://mustafa-guer.developerakademie.com/doctor-database/'
+    },
+    {
+      'id': 'musgkanban',
+      'name': 'MusG Kanban',
+      'description': 'Personal Kanban Board based by Angular and Material Desing',
+      'link': 'http://mustafa-guer.developerakademie.com/MusG-Kanban/'
     }
   ];
 

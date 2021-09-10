@@ -24,7 +24,7 @@ export class ProjectsAngularComponent implements OnInit {
       'id': 'burritocompany',
       'name': 'Burrito Company',
       'description': 'Restaurant Website with Angular',
-      'link': 'http://mustafa-guer.developerakademie.com/burritoCompany/'
+      'link': 'https://www.mustafaguer.de/ngprojects/burritoCompany/'
     },
     {
       'id': 'doctordatabase',

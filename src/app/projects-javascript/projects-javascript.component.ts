@@ -18,14 +18,8 @@ export class ProjectsJavascriptComponent implements OnInit {
       'id': 'burritocompany',
       'name': 'Burrit Company',
       'description': 'Javascript based Object-Oriented Restaurant Website',
-      'link': 'http://mustafa-guer.developerakademie.com/burrito-company/index.html'
+      'link': 'https://www.mustafaguer.de/jsprojects/burrito-company/index.html'
     },
-    // {
-    //   'id': 'pokedex',
-    //   'name': 'Pokedex',
-    //   'description': 'Work with API',
-    //   'link': 'http://mustafa-guer.developerakademie.com/Pokedex/index.html'
-    // },
     {
       'id': 'join',
       'name': 'Join',

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
@@ -15,6 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 import { StartscreenComponent } from './startscreen/startscreen.component';
 import { ProjectsJavascriptComponent } from './projects-javascript/projects-javascript.component';
 import { ProjectsAngularComponent } from './projects-angular/projects-angular.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ProjectsAngularComponent } from './projects-angular/projects-angular.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

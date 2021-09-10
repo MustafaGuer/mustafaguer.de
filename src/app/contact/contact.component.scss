@@ -36,21 +36,21 @@
             margin-top: 30px;
             display: flex;
             justify-content: flex-end;
-            .sendBtn {
-                color: #2dfcd8;
-                background-color: black;
-                width: 150px;
-                height: 50px;
-                border: 1px solid #2dfcd8;
-                cursor: pointer;
-                transition: all 225ms ease-in-out;
-                &:hover {
-                    background-color: #2dfcd8;
-                    color: white;
-                    transition: all 225ms ease-in-out;
-                }
-            }
         }
+    }
+}
+.sendBtn {
+    color: #2dfcd8;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #2dfcd8;
+    cursor: pointer;
+    transition: all 225ms ease-in-out;
+    &:hover {
+        background-color: #2dfcd8;
+        color: white;
+        transition: all 225ms ease-in-out;
     }
 }
 

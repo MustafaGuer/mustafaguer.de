@@ -31,6 +31,12 @@ export class ProjectsJavascriptComponent implements OnInit {
       'name': 'QuizApp',
       'description': 'Javascript based Quiz Game',
       'link': 'http://mustafa-guer.developerakademie.com/Quizapp%20Dark/index.html'
+    },
+    {
+      'id': 'postserver',
+      'name': 'Post API',
+      'description': 'Javascript based Web Component for searching addresses',
+      'link': 'http://mustafa-guer.developerakademie.com/postserver-webkcomponent/index.html'
     }
   ];
 

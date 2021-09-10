@@ -13,7 +13,7 @@
             <label for="message" name="message">Message</label>
             <textarea id="message" placeholder="Enter your Message" name="message" ngModel #message="ngModel" rows="8" required></textarea>
             <div>
-                <button [disabled]="!myForm.valid">SUBMIT</button>
+                <button [disabled]="!myForm.valid" [class.sendBtn]="myForm.valid">SUBMIT</button>
             </div>
             <div class="reportBox"><p>{{ submitReport }}</p></div>
         </form>

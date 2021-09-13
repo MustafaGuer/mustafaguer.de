@@ -11,42 +11,54 @@
     img {
         width: 30px;
     }
-    .skillContainer {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 672px;
+}
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 672px;
+}
+.skillImgBox {
+    width: 60px;
+    background-color: white;
+    height: 60px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 2px rgb(0 0 0 / 40%);
+    justify-content: center;
+    border-radius: 100%;
+}
+.skillBoxes {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin: 24px 12px 24px 12px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: default;
+    transition: transform 0.35s ease-out;
+    &:hover {
+        animation: ZoomIn 1s ease-in-out;
     }
-    .skillImgBox {
-        width: 60px;
-        background-color: white;
-        height: 60px;
-        margin-top: -30px;
-        display: flex;
-        align-items: center;
-        box-shadow: 0 0 10px 2px rgb(0 0 0 / 40%);
-        justify-content: center;
-        border-radius: 100%;
-    }
-    .skillBoxes {
-        width: 200px;
-        height: 100px;
-        background-color: white;
-        margin: 24px 12px 24px 12px;
-        border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        cursor: default;
-        &:hover {
-            animation: ZoomIn 1s ease-in-out;
-        }
-        span {
-            color: black;
-            margin-top: 10px;
-        }
+    span {
+        color: black;
+        margin-top: 10px;
     }
 }
+
+.skillBoxes.sn-viewport--out {
+    opacity: 0;
+}
+
+.skillBoxes.sn-viewport--in {
+    animation: showAnimation 225ms ease-in;
+}
+
+
 
 @keyframes ZoomIn {
     from {

@@ -13,3 +13,9 @@ export class AboutComponent implements OnInit {
   }
 
 }
+
+// function calculateAge(){
+//   let birthYear = 1990;
+//   let currentYear = new Date().getFullYear();
+//   return currentYear - birthYear;
+// }

@@ -12,3 +12,12 @@ body {
 .d-none {
     display: none !important;
 }
+
+@keyframes showAnimation {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

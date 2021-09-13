@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+    transition: transform 0.35s ease-out;
     a {
         text-decoration: none;
         color: #2dfcd8;
@@ -10,35 +11,45 @@
         font-size: 48px;
         color: #2dfcd8;
     }
-    .contactForm {
-        display: flex;
-        flex-direction: column;
-        label {
-            margin-bottom: 4px;
-        }
-        input {
-            margin-bottom: 8px;
-        }
-        input,
-        textarea {
-            font-family: "Open Sans", sans-serif;
-            background-color: #1A1A1A;
-            color: white;
-            padding: 8px;
-            border: none;
-            transition: box-shadow 225ms ease-out;
-            &:hover {
-                box-shadow: 0 0 2px 1px white;
-                transition: box-shadow 225ms ease-in;
-            }
-        }
-        div {
-            margin-top: 30px;
-            display: flex;
-            justify-content: flex-end;
+}
+
+.container.sn-viewport--in {
+    animation: showAnimation 225ms ease-in;
+}
+
+.container.sn-viewport--out {
+    opacity: 0;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    label {
+        margin-bottom: 4px;
+    }
+    input {
+        margin-bottom: 8px;
+    }
+    input,
+    textarea {
+        font-family: "Open Sans", sans-serif;
+        background-color: #1a1a1a;
+        color: white;
+        padding: 8px;
+        border: none;
+        transition: box-shadow 225ms ease-out;
+        &:hover {
+            box-shadow: 0 0 2px 1px white;
+            transition: box-shadow 225ms ease-in;
         }
     }
+    div {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
+
 .sendBtn {
     color: #2dfcd8;
     background-color: black;

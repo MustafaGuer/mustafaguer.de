@@ -1,9 +1,11 @@
 <div id="portfolio" class="container">
-    <h2>My Works</h2>
-    <div class="lists">
-        <button [class.active]="all" class="linkBox" (click)="showAll()">All</button>
-        <button [class.active]="angular" class="linkBox" (click)="showAngular()">Angular</button>
-        <button [class.active]="javascript" class="linkBox" (click)="showJavascript()">Java Script</button>
+    <div class="headline" snInViewport>
+        <h2>My Works</h2>
+        <div class="lists">
+            <button [class.active]="all" class="linkBox" (click)="showAll()">All</button>
+            <button [class.active]="angular" class="linkBox" (click)="showAngular()">Angular</button>
+            <button [class.active]="javascript" class="linkBox" (click)="showJavascript()">Java Script</button>
+        </div>
     </div>
     <div class="previews">
         <app-projects-javascript *ngIf="javascript || all" class="diff-projects-container"></app-projects-javascript>

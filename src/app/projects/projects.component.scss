@@ -9,6 +9,18 @@
     }
 }
 
+.headline {
+    transition: transform 0.35s ease-out;
+}
+
+.headline.sn-viewport--in {
+    animation: showAnimation 225ms ease-in;
+}
+
+.headline.sn-viewport--out {
+    opacity: 0;
+}
+
 .lists {
     display: flex;
 }

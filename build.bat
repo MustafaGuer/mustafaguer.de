@@ -3,5 +3,5 @@ set /p commit=Enter your Commit:
 git commit -m "%commit%"
 git push
 
-ng build --prod --base-href="/mustafaguer.de/"
+ng build --prod --base-href="/"
 

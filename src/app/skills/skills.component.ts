@@ -25,6 +25,10 @@ export class SkillsComponent implements OnInit {
       'name': 'CSS'
     },
     {
+      'img': 'angular-material-logo.svg',
+      'name': 'Material Design'
+    },
+    {
       'img': 'Group 226.png',
       'name': 'SCRUM'
     },

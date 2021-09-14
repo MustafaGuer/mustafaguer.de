@@ -16,7 +16,7 @@ export class ProjectsJavascriptComponent implements OnInit {
     },
     {
       'id': 'burritocompany',
-      'name': 'Burrit Company',
+      'name': 'Burrito Company',
       'description': 'Javascript based Object-Oriented Restaurant Website',
       'link': 'https://www.mustafaguer.de/jsprojects/burrito-company/index.html'
     },

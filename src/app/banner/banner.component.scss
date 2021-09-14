@@ -3,14 +3,7 @@
     padding-right: 120px;
     padding-top: 200px;
     height: calc(100vh - 120px);
-    // max-width: 1920px;
-    .box {
-        display: flex;
-        justify-content: space-evenly;
-        h1 {
-            margin-bottom: 80px;
-        }
-    }
+
     img {
         width: 300px;
         height: 300px;
@@ -36,24 +29,44 @@
         color: white;
         transition: all 225ms ease-in-out;
     }
-    .arrowBox {
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        left: 50%;
-        bottom: 30px;
-        a {
-            color: white;
-            font-size: 30px;
-            border: 1px solid white;
-            border-radius: 50%;
-            padding: 10px 20px;
-            cursor: pointer;
-            &:hover {
-                background-color: white;
-                color: #FA2759;
-            }
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    h1 {
+        margin-bottom: 80px;
+    }
+}
+
+.arrowBox {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+
+    a {
+        color: white;
+        font-size: 30px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 10px 20px;
+        cursor: pointer;
+        &:hover {
+            background-color: white;
+            color: #FA2759;
         }
+    }
+}
+
+@keyframes animate {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
     }
 }
 

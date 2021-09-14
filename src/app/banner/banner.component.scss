@@ -45,6 +45,7 @@
     position: absolute;
     left: 50%;
     bottom: 30px;
+    transition: transform 0.35s ease-out;
 
     a {
         color: white;
@@ -53,6 +54,8 @@
         border-radius: 50%;
         padding: 10px 20px;
         cursor: pointer;
+        text-decoration: none;
+        transition: background-color 225ms ease-in-out;
         &:hover {
             background-color: white;
             color: #FA2759;
@@ -60,13 +63,21 @@
     }
 }
 
+.arrowBox.sn-viewport--out {
+    opacity: 0;
+}
+
+.arrowBox.sn-viewport--in {
+    animation: animate 1s ease-in;
+}
+
 @keyframes animate {
     from {
-        transform: scale(0);
+        transform: rotateY(0);
     }
 
     to {
-        transform: scale(1);
+        transform: rotateY(360deg);
     }
 }
 

@@ -41,9 +41,7 @@
     align-items: center;
     cursor: default;
     transition: transform 0.35s ease-out;
-    &:hover {
-        animation: ZoomIn 1s ease-in-out;
-    }
+   
     span {
         color: black;
         margin-top: 10px;

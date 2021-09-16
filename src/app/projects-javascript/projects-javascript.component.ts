@@ -12,7 +12,7 @@ export class ProjectsJavascriptComponent implements OnInit {
       'id': 'sharkie',
       'name': 'Sharkie',
       'description': 'Javascript based game',
-      'link': 'http://mustafa-guer.developerakademie.com/SHARKIE/index.html'
+      'link': 'https://www.mustafaguer.de/jsprojects/Sharkie/index.html'
     },
     {
       'id': 'burritocompany',
@@ -21,22 +21,16 @@ export class ProjectsJavascriptComponent implements OnInit {
       'link': 'https://www.mustafaguer.de/jsprojects/burrito-company/index.html'
     },
     {
-      'id': 'join',
-      'name': 'Join',
-      'description': 'Canban Board with JavaScript in Group Work',
-      'link': 'http://mustafa-guer.developerakademie.com/Join/html/login-submit.html'
-    },
-    {
       'id': 'quizapp',
       'name': 'QuizApp',
       'description': 'Javascript based Quiz Game',
-      'link': 'http://mustafa-guer.developerakademie.com/Quizapp%20Dark/index.html'
+      'link': 'https://www.mustafaguer.de/jsprojects/Quizapp%20Dark/index.html'
     },
     {
       'id': 'postserver',
       'name': 'Post API',
       'description': 'Javascript based Web Component for searching addresses',
-      'link': 'http://mustafa-guer.developerakademie.com/postserver-webkcomponent/index.html'
+      'link': 'https://www.mustafaguer.de/jsprojects/postserver-webkcomponent/index.html'
     }
   ];
 

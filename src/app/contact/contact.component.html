@@ -16,6 +16,7 @@
                 <button [disabled]="!myForm.valid" [class.sendBtn]="myForm.valid">SUBMIT</button>
             </div>
             <div class="reportBox"><p>{{ submitReport }}</p></div>
+            <button *ngIf="submitComplete" (click)="closeCard()">Ok</button>
         </form>
     </div>
 </div>

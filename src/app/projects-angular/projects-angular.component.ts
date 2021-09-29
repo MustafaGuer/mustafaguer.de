@@ -36,7 +36,7 @@ export class ProjectsAngularComponent implements OnInit {
       'id': 'musgkanban',
       'name': 'MusG Kanban',
       'description': 'Personal Kanban Board based by Angular and Material Desing',
-      'link': 'http://mustafa-guer.developerakademie.com/MusG-Kanban/index.html'
+      'link': 'https://www.mustafaguer.de/ngprojects/MusG-Kanban/index.html'
     }
   ];
 

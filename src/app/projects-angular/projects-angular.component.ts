@@ -20,23 +20,23 @@ export class ProjectsAngularComponent implements OnInit {
       'description': 'Angular based Business App',
       'link': 'http://mustafa-guer.developerakademie.com/simplecrm/index.html'
     },
-    // {
-    //   'id': 'burritocompany',
-    //   'name': 'Burrito Company',
-    //   'description': 'Restaurant Website with Angular',
-    //   'link': 'https://www.mustafaguer.de/ngprojects/burritoCompany/'
-    // },
-    // {
-    //   'id': 'doctordatabase',
-    //   'name': 'Doctor Database',
-    //   'description': 'Angular Website for searching Doctor',
-    //   'link': 'https://www.mustafaguer.de/ngprojects/doctor-database/index.html'
-    // },
+    {
+      'id': 'burritocompany',
+      'name': 'Burrito Company',
+      'description': 'Restaurant Website with Angular',
+      'link': 'https://www.mustafaguer.de/ngprojects/burritoCompany/'
+    },
+    {
+      'id': 'doctordatabase',
+      'name': 'Doctor Database',
+      'description': 'Angular Website for searching Doctor',
+      'link': 'https://www.mustafaguer.de/ngprojects/doctor-database/index.html'
+    },
     {
       'id': 'musgkanban',
       'name': 'MusG Kanban',
       'description': 'Personal Kanban Board based by Angular and Material Desing',
-      'link': 'http://mustafa-guer.developerakademie.com/MusG-Kanban/index.html'
+      'link': 'https://www.mustafaguer.de/ngprojects/MusG-Kanban/index.html'
     }
   ];
 

@@ -39,8 +39,7 @@ import { InViewportModule } from '@thisissoon/angular-inviewport';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule,
-    InViewportModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

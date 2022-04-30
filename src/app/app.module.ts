@@ -17,7 +17,6 @@ import { ProjectsJavascriptComponent } from './projects-javascript/projects-java
 import { ProjectsAngularComponent } from './projects-angular/projects-angular.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { InViewportModule } from '@thisissoon/angular-inviewport';
 
 @NgModule({
   declarations: [
